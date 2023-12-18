@@ -1,0 +1,32 @@
+*
+{
+    box-sizing: border-box;
+}
+body {
+    background-image: url('/static/background/'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    height: 100vh;
+    position: fixed;
+}
+
+.sec
+{
+    background-image: url('/static/background/background1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    height: 100vh;   
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: blue; /* Set your desired background color */
+    text-align: center;
+    padding: 10px 0;
+}
+

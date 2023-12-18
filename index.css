@@ -1,0 +1,36 @@
+*
+{
+    box-sizing: border-box;
+}
+body {
+    background-image: url('/static/background/background.jpg'); /* Replace 'shopping-background.jpg' with your actual image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    height: 680px;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:blue;
+    padding: 15px 0;
+    text-align: center;
+}
+.text-muted
+{
+    color: white;
+}
